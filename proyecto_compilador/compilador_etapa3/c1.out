@@ -1,0 +1,29 @@
+@ Wed Jul 30 20:39:34 2025                   YOUR NAME HERE
+@ Compiler    = c1shell.py
+@ Input file  = c1.in
+@ Output file = c1.out
+@------------------------------------------- Assembler code
+.text
+	MOV R1, #4
+	MOV R2, #3
+	MUL R0, R1, R2
+	MOV a, R0
+	MOV R3, #10
+	MOV b, R3
+	CMP a, b
+	BLE .endif0
+	LDR R0, =msg0
+	BL print_string
+.endif0:
+	ADD R4, a, b
+	MOV c, R4
+	MOV R6, #2
+	SUB R5, b, R6
+	MOV d, R5
+	CMP c, d
+	BGE .endif1
+	LDR R0, =msg1
+	BL print_string
+.endif1:
+	LDR R0, =msg2
+	BL print_string
