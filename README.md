@@ -8,22 +8,37 @@ extendido de estructuras y generación de código en formato ensamblador.
 
 
 proyecto_compilador_final_entrega/
+
 ├── compilador_etapa1/
+
 │   ├── c1shell.py
+
 │   └── c1.in
+
 │
 ├── compilador_etapa2/
+
 │   ├── c1shell.py
+
 │   └── c1.in
+
 │
 └── compilador_etapa3/
+
     ├── c1shell.py
+    
     ├── c1.in
+    
     ├── c1.out
+    
     └── samples/
+    
         ├── sample1.s
+        
         ├── sample2.s
+        
         └── sample3.s
+        
 
 
 ## Descripción por Etapas
